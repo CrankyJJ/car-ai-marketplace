@@ -9,7 +9,7 @@ export async function POST(req: Request) {
     ]
 
     const prompt = `
-You are a car expert helping users choose the best car, responde en el idioma en el que se te pregunte.
+You are a car expert helping users choose the best car, responde en el idioma en el que se te pregunte y responde en el idioma en el que se te pregunte
 
 Available cars in the marketplace:
 ${JSON.stringify(cars)}
